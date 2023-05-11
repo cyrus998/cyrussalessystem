@@ -3,8 +3,8 @@
 <x-app-layout>
     <div class="container-fluid">
         <div class="d-sm-flex justify-content-between align-items-center mb-4">
-            <h3 class="text-dark mb-0">Dashboard</h3>
-            <h3 class="text-dark mb-0"> Welcome, {{auth()->user()->name}}!</h3>
+            <h3 class="text-white mb-0">Dashboard</h3>
+            <h3 class="text-white mb-0"> Welcome, {{auth()->user()->name}}!</h3>
             @if (Auth()->user()->role == 'admin')
                 <a class="btn btn-primary btn-sm d-none d-sm-inline-block btn-icon-split" role="button"
                     href="{{ route('report.index') }}">

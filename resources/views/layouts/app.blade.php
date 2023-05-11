@@ -15,6 +15,15 @@
 
 @stack('css')
 
+<style>
+    #content {
+        background-image: url("https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
 <body id="page-top">
     <div id="wrapper">
 
@@ -53,7 +62,7 @@
                     {{ $slot }}
                 </main>
             </div>
-            <footer class="bg-white sticky-footer mt-3">
+            <footer class="bg-gray-900 sticky-footer">
                 <div class="container my-auto">
                     <div class="text-center my-auto copyright"><span>Poggers {{ date('Y') }}</span>
                     </div>

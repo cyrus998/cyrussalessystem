@@ -3,7 +3,7 @@
 <div class="flex w-full flex-wrap">
     <div class="flex w-full flex-col md:w-1/2 lg:w-1/3">
         <div class="flex justify-center pt-12 md:-mb-24 md:justify-start md:pl-12">
-            <a href="#" class="border-b-4 border-b-blue-700 pb-2 text-2xl font-bold text-gray-900"> STONKS | Point
+            <a href="#" class="border-b-4 border-b-blue-700 pb-2 text-4xl font-bold text-gray-900"> STONKS |<br> Point
                 of Sale Systems. </a>
         </div>
         <div class="my-auto flex flex-col justify-center px-6 pt-8 sm:px-24 md:justify-start md:px-8 md:pt-0 lg:px-12">
