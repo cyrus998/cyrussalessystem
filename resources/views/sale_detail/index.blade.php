@@ -73,18 +73,18 @@
                                 <label for="inputTotal">Total</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="inputPay" placeholder="Bayar" readonly>
-                                <label for="inputPay">Bayar</label>
+                                <input type="text" class="form-control" id="inputPay" placeholder="To Pay" readonly>
+                                <label for="inputPay">To Pay</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="number" class="form-control" id="inputReceive" placeholder="Diterima"
+                                <input type="number" class="form-control" id="inputReceive" placeholder="Payment Received"
                                     name="received" value="0">
-                                <label for="inputReceive">Diterima</label>
+                                <label for="inputReceive">Payment Received</label>
                             </div>
                             <div class="form-floating mb-4">
-                                <input type="text" class="form-control" id="inputChange" placeholder="Kembali"
+                                <input type="text" class="form-control" id="inputChange" placeholder="Change"
                                     name="change" readonly>
-                                <label for="inputChange">Kembali</label>
+                                <label for="inputChange">Change</label>
                             </div>
                             <div class="d-flex justify-content-end">
                                 <button type="submit" class="btn btn-success btn-icon-split">
