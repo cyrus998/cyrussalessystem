@@ -20,7 +20,7 @@ class SaleFactory extends Factory
             'total_items' => '1',
             'total_price' => fake()->numberBetween(1050, 3050),
             'user_id' => '1',
-            'created_at' => fake()->dateTimeInInterval('-2 weeks', '+15 days'),
+            'created_at' => fake()->dateTimeInInterval('-2 weeks', '+14 days'),
         ];
     }
 }
