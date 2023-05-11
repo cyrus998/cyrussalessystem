@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+<nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion p-0" style="background-color: #9146FF;">
     <div class="container-fluid d-flex flex-column p-0"><a
             class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="/">
             <div class="sidebar-brand-icon"><img style="height: 3rem;" src="https://cdn.frankerfacez.com/emoticon/428011/4" alt=""></div>
@@ -15,7 +15,7 @@
                         href="{{ route('category.index') }}"><i class="fas fa-tags"></i><span>Category</span></a></li>
                 <li class="nav-item"><a
                         class="nav-link {{ $__env->yieldContent('title') === 'Product' ? 'active' : '' }}"
-                        href="{{ route('product.index') }}"><i class="fas fa-box"></i></i><span>Product</span></a></li>
+                        href="{{ route('product.index') }}"><i class="fas fa-box"></i></i><span>Products</span></a></li>
             @endif
             <hr class="sidebar-divider mt-2">
             <div class="sidebar-heading">Transaction</div>
@@ -45,7 +45,7 @@
                 <div class="sidebar-heading">Arrangement</div>
                 <li class="nav-item"><a
                         class="nav-link {{ $__env->yieldContent('title') === 'User' ? 'active' : '' }}"
-                        href="{{ route('user.index') }}"><i class="fas fa-user"></i><span>User</span></a>
+                        href="{{ route('user.index') }}"><i class="fas fa-user"></i><span>Users Management</span></a>
                 </li>
             @endif
             <hr class="sidebar-divider mt-2">

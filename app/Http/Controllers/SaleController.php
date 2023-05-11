@@ -46,13 +46,13 @@ class SaleController extends Controller
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a onclick="showDetail(`' . route('sale.show', $sales->id) . '`)" class="dropdown-item">Detail</a>
+                                <a onclick="showDetail(`' . route('sale.show', $sales->id) . '`)" class="dropdown-item rounded">View Detail</a>
                             </li>
                             <li>
-                                <a href="' .  route('sale.edit', $sales->id) . '" class="dropdown-item">Update</a>
+                                <a href="' .  route('sale.edit', $sales->id) . '" class="dropdown-item rounded">Update</a>
                             </li>
                             <li>
-                                <a onclick="deleteData(`' . route('sale.destroy', $sales->id) . '`)" class="dropdown-item">Delete</a>
+                                <a onclick="deleteData(`' . route('sale.destroy', $sales->id) . '`)" class="dropdown-item bg-danger rounded">Delete</a>
                             </li>
                         </ul>
                     </div>
