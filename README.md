@@ -2,9 +2,9 @@ composer update
 
 cp .env.example .env
 
-edit database name= test
+edit database name= laravel
 
-create a db in phpmysql named: test
+create a db in phpmysql named: laravel
 
 npm install
 
