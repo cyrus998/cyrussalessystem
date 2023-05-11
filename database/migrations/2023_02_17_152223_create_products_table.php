@@ -20,6 +20,7 @@ return new class extends Migration
                 ->onUpdate('restrict');
             $table->string('code')->unique();
             $table->string('name')->unique();
+            $table->string('description')->default('This contains the basic description of the product, and other product specifications.');
             $table->integer('price');
             $table->timestamps();
         });

@@ -55,6 +55,7 @@
                                     <th width="5%">No.</th>
                                     <th>Code</th>
                                     <th>Name</th>
+                                    <th>Description</th>
                                     <th>Category</th>
                                     <th>Price</th>
                                     <th width="10%"></th>
@@ -95,6 +96,9 @@
                         },
                         {
                             data: 'name'
+                        },
+                        {
+                            data: 'description'
                         },
                         {
                             data: 'category'
@@ -162,6 +166,7 @@
                     .done((response) => {
                         $('#productModal [name=productName]').val(response.name);
                         $('#productModal [name=productCategoryId]').val(response.category_id);
+                        $('#productModal [name=productDescription]').val(response.description);
                         $('#productModal [name=productPrice]').val(response.price);
                     })
                     .fail((error) => {

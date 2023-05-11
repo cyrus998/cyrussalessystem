@@ -65,6 +65,7 @@ class ProductController extends Controller
             'category_id' => $request->productCategoryId,
             'code' => $request->code,
             'name' => $request->productName,
+            'description' => $request->productDescription,
             'price' => $request->productPrice,
         ]);
 
@@ -87,6 +88,7 @@ class ProductController extends Controller
         $products->name = $request->productName;
         $products->category_id = $request->productCategoryId;
         $products->price = $request->productPrice;
+        $products->description = $request->productDescription;
         $products->update();
 
         return response()->json(

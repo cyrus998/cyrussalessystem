@@ -15,6 +15,14 @@
                         <label for="productName">Product name</label>
                     </div>
                     <div class="mb-3 form-floating">
+                        <textarea cols="50" rows="10" class="form-control" name="productDescription" id="productDescription"
+                            placeholder="Product name" aria-describedby="productDescriptionHelp" required>
+                        </textarea>
+                        {{-- <input type="text" class="form-control" name="productDescription" id="productDescription"
+                            placeholder="Product name" aria-describedby="productDescriptionHelp" required> --}}
+                        <label for="productDescription">Product Description</label>
+                    </div>
+                    <div class="mb-3 form-floating">
                         <select name="productCategoryId" class="form-select" aria-label="ProductCategory" required>
                             <option selected disabled>Choose Category</option>
                             @foreach ($categories as $key => $item)
