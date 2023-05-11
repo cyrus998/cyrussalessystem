@@ -1,4 +1,4 @@
-@section('title', 'Profil')
+@section('title', 'Profile')
 
 <x-app-layout>
     <div class="container-fluid">

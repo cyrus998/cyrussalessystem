@@ -33,9 +33,9 @@ class SaleDetailController extends Controller
             $row = array();
             $row['code'] = '<span class="badge bg-success">' . $item->products['code'] . '</span>';
             $row['name'] = $item->products['name'];
-            $row['price'] = 'Php' . indonesia_format($item->price);
+            $row['price'] = 'Php ' . indonesia_format($item->price);
             $row['quantity'] = '<input type="number" class="form-control form-control-sm quantity" data-id="' . $item->id . '" value="' . $item->quantity . '">';
-            $row['subtotal'] = 'Php' . indonesia_format($item->subtotal);
+            $row['subtotal'] = 'Php ' . indonesia_format($item->subtotal);
             $row['action'] = '<a onclick="deleteData(`' . route('transaction.destroy', $item->id) . '`)" class="btn btn-sm btn-danger btn-icon-split"><span
                                         class="icon text-white-50"><i class="fas fa-trash"></i></span>
                                     <span class="text">Delete</span></a>';

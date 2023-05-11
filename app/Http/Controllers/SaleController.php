@@ -114,10 +114,10 @@ class SaleController extends Controller
                 return $detail->products['name'];
             })
             ->addColumn('price', function ($detail) {
-                return 'Php' . indonesia_format($detail->price);
+                return 'Php ' . indonesia_format($detail->price);
             })
             ->addColumn('subtotal', function ($detail) {
-                return 'Php' . indonesia_format($detail->subtotal);
+                return 'Php ' . indonesia_format($detail->subtotal);
             })
             ->rawColumns(['code'])
             ->make(true);

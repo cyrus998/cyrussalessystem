@@ -23,7 +23,7 @@
                                         <span>Earnings Today</span>
                                     </div>
                                     <div class="text-dark fw-bold h5 mb-0">
-                                        <span>Php{{ indonesia_format($todayRevenue) }}</span>
+                                        <span>Php {{ indonesia_format($todayRevenue) }}</span>
                                     </div>
                                 </div>
                             @else
@@ -51,7 +51,7 @@
                                         <span>Earnings of the Month</span>
                                     </div>
                                     <div class="text-dark fw-bold h5 mb-0">
-                                        <span>Php{{ indonesia_format($monthRevenue) }}</span>
+                                        <span>Php {{ indonesia_format($monthRevenue) }}</span>
                                     </div>
                                 </div>
                             @else
