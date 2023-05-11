@@ -55,7 +55,7 @@
             </div>
             <footer class="bg-white sticky-footer mt-3">
                 <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright © Lepas Rindu {{ date('Y') }}</span>
+                    <div class="text-center my-auto copyright"><span>Poggers {{ date('Y') }}</span>
                     </div>
                 </div>
             </footer>
