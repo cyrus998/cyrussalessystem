@@ -279,9 +279,9 @@
 
                 $.get(`{{ url('/transaction/loadform') }}/${$('.total').text()}/${received}`)
                     .done(response => {
-                        $('#inputTotal').val('Rp' + response.total);
-                        $('#inputPay').val('Rp' + response.pay);
-                        $('#inputChange').val('Rp' + response.change);
+                        $('#inputTotal').val('Php' + response.total);
+                        $('#inputPay').val('Php' + response.pay);
+                        $('#inputChange').val('Php' + response.change);
                     })
                     .fail(errors => {
                         $('#toast').addClass('text-bg-danger')

@@ -24,7 +24,7 @@
                         <label for="productCategoryId">Product Category</label>
                     </div>
                     <div class="input-group">
-                        <span class="input-group-text">Rp</span>
+                        <span class="input-group-text">Php</span>
                         <input type="number" class="form-control" name="productPrice" id="productPrice"
                             placeholder="Product Price" aria-describedby="productPriceHelp" required>
                     </div>

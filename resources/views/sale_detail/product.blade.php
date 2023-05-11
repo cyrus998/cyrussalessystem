@@ -23,7 +23,7 @@
                                     <td width="5%">{{ $key + 1 }}</td>
                                     <td><span class="badge bg-success">{{ $item->code }}</span></td>
                                     <td>{{ $item->name }}</td>
-                                    <td>Rp{{ indonesia_format($item->price) }}</td>
+                                    <td>Php{{ indonesia_format($item->price) }}</td>
                                     <td width="5%">
                                         <a class="btn btn-sm btn-primary btn-icon-split"
                                             onclick="chooseProduct('{{ $item->id }}', '{{ $item->code }}')">
