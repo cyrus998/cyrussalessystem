@@ -128,7 +128,7 @@
                                             <div class="mb-3">
                                                 <label class="form-label" for="password"><strong>New Password</strong></label>
                                                 <input class="form-control" type="password" id="password"
-                                                    placeholder="Password Baru" name="password">
+                                                    placeholder="Password" name="password">
                                                 <x-input-error :messages="$errors->updatePassword->get('password')" class="mt-2" />
                                             </div>
                                         </div>

@@ -18,6 +18,9 @@
                         href="{{ route('product.index') }}"><i class="fas fa-box"></i></i><span>Products</span></a></li>
             @endif
             <hr class="sidebar-divider mt-2">
+
+            @if (Auth()->user()->role == 'admin')
+
             <div class="sidebar-heading">Transaction</div>
             <li class="nav-item">
                 <a class="nav-link {{ $__env->yieldContent('title') === 'Transaction' ? 'active' : '' }}"
@@ -26,6 +29,8 @@
                     <span>Transaction</span>
                 </a>
             </li>
+
+            @endif
             <li class="nav-item">
                 <a class="nav-link {{ $__env->yieldContent('title') === 'Sale' ? 'active' : '' }}"
                     href="{{ route('sale.index') }}">

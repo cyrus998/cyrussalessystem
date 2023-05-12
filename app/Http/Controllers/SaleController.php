@@ -48,8 +48,9 @@ class SaleController extends Controller
                             <li>
                                 <a onclick="showDetail(`' . route('sale.show', $sales->id) . '`)" class="dropdown-item rounded">View Detail</a>
                             </li>
+                            
                             <li>
-                                <a href="' .  route('sale.edit', $sales->id) . '" class="dropdown-item rounded">Update</a>
+                                <a href="' .  route('sale.edit', $sales->id) . '" class="dropdown-item rounded">Updates</a>
                             </li>
                             <li>
                                 <a onclick="deleteData(`' . route('sale.destroy', $sales->id) . '`)" class="dropdown-item bg-danger rounded">Delete</a>
