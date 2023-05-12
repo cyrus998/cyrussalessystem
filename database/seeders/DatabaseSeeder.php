@@ -23,14 +23,14 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::factory()->create([
             'name' => 'Cashier Cedz',
-            'email' => 'cedz@gmail.com',
+            'email' => 'mrcvadap@tip.edu.ph',
             'password' => bcrypt('qwerqwer'),
             'role' => 'user',
         ]);
 
         \App\Models\User::factory()->create([
             'name' => 'Cashier Cyrus',
-            'email' => 'cyrus@gmail.com',
+            'email' => 'jonathanfranciscosopro@gmail.com',
             'password' => bcrypt('qwerqwer'),
             'role' => 'user',
         ]);
