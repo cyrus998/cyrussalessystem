@@ -21,7 +21,7 @@
                                 </path>
                             </svg>
                         </span>
-                        <input type="text" id="email_address" name="email" required autofocus
+                        <input type="text" id="email_address" name="email" required autofocus placeholder="Email used for your account."
                             class="w-full flex-1 appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400  focus:outline-none" />
 
                     </div>
@@ -38,7 +38,7 @@
                                 </path>
                             </svg>
                         </span>
-                        <input type="password" id="password" name="password" required autofocus
+                        <input type="password" id="password" name="password" required autofocus placeholder="Your New Password."
                             class="w-full flex-1 appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400  focus:outline-none" />
 
                     </div>
@@ -54,7 +54,7 @@
                                 </path>
                             </svg>
                         </span>
-                        <input type="password" id="password-confirm" name="password_confirmation" required autofocus
+                        <input type="password" id="password-confirm" name="password_confirmation" required autofocus placeholder="Confirm Your New Password."
                             class="w-full flex-1 appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400  focus:outline-none" />
 
                     </div>
