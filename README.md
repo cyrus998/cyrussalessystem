@@ -1,3 +1,13 @@
+GitHub Link: https://github.com/cyrus998/cyrussalessystem
+
+Members:
+Adap, Reimon Cedric V.
+Francisco, Jonathan Cyrus
+Jabal, Adieser
+Natan, Joe
+
+How to run:
+
 composer update
 
 npm install
